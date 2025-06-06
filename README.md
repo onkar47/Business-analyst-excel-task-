@@ -2,6 +2,11 @@
 
 A comprehensive business intelligence analysis of GIVA's e-commerce performance data from July to November 2022, featuring advanced Excel analytics, forecasting models, and data visualization.
 
+## Sample Dashboard Screenshot
+
+![Business-analyst-excel-task-](images/Sample_data.png)
+
+
 ## 📊 Project Overview
 
 This project analyzes GIVA's business metrics across multiple dimensions including sales performance, user engagement, conversion rates, and growth patterns. The analysis spans 143 days of operational data and provides actionable insights for business optimization.
