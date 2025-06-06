@@ -2,11 +2,10 @@
 
 A comprehensive business intelligence analysis of GIVA's e-commerce performance data from July to November 2022, featuring advanced Excel analytics, forecasting models, and data visualization.
 
-## Sample Dashboard Screenshot
+![Questions](./Questions.png)
+## Sample data Screenshot
 
-![Business-analyst-excel-task-](images/Sample_data.png)
-
-
+![Sample data](./Sample_data.png)
 ## 📊 Project Overview
 
 This project analyzes GIVA's business metrics across multiple dimensions including sales performance, user engagement, conversion rates, and growth patterns. The analysis spans 143 days of operational data and provides actionable insights for business optimization.
@@ -28,6 +27,8 @@ This project analyzes GIVA's business metrics across multiple dimensions includi
 - **Net Sales** patterns and seasonal variations
 - **Net Orders** distribution analysis
 
+- ![MoM analysis](./Question_1.png)
+
 **Key Findings:**
 - Saturdays show highest AOV performance (188.6 in November)
 - Thursdays demonstrate strong consistency across months
@@ -38,26 +39,36 @@ This project analyzes GIVA's business metrics across multiple dimensions includi
 - **R-squared value**: 0.061 (indicating moderate correlation with time)
 - **Predicted November total sales**: ₹53,071,330
 - Daily forecasted values for November 21-30, 2022
-
+![Correlation](./Question_2A.png)
 **Model Performance:**
 - Multiple R: 0.247
 - Standard Error: 599,854
 - F-statistic: 9.155 (p-value: 0.003)
+![Linear_Regression_Model](./Question_2B.png)
+![Forecast](./Question_2C.png)
+
+
+
+
 
 ### 3. Sign-up Rate Analysis & Anomaly Detection
 - **Statistical outlier identification** using Z-score methodology
 - **Monthly averages**: July (20.2%), August (24.9%), September (15.2%), October (11.9%), November (17.3%)
 - **Identified anomalies**: 6 significant outliers detected in August-September period
+![SignUP_Trend](./Question_3C.png)
+![NewInstalls_Trend](./Question_3D.png)
 
 **Notable Outliers:**
 - August 20: 35.5% (highest recorded)
 - August 31: 37.82%
 - September 2: 31.75%
-
+![Insights](./Question_3A.png)
+![REcommendations](./Question_3B.png)
 ### 4. Data Quality Assessment
 - **Z-score analysis** across all metrics for anomaly detection
 - **Correlation matrix** revealing key relationships between variables
 - **Data cleaning recommendations** for identified inconsistencies
+- ![Z_Score](./Question_4.png) 
 
 ## 🔧 Technical Implementation
 
@@ -84,6 +95,7 @@ This project analyzes GIVA's business metrics across multiple dimensions includi
 1. **Weekend Strategy**: Capitalize on Saturday's high AOV performance
 2. **Anomaly Investigation**: Review August outliers for replicable success factors
 3. **Forecasting Accuracy**: Implement additional variables for improved prediction models
+![Trends](./Question_5.png)
 
 ## 📋 Data Structure
 
